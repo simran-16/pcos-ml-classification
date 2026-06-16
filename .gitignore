@@ -1,1 +1,42 @@
+# Data files — never commit patient data
+*.csv
+*.xlsx
+*.json
+data/raw/
+data/processed/
+
+# Exceptions — allow sample file only
+!data/sample/sample_5rows.csv
+
+# Model files — too large for Git
+*.pkl
+*.joblib
+*.h5
+*.pt
+outputs/models/*.pkl
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+env/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Colab auth
+token.json
+credentials.json
