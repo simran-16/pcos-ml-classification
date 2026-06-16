@@ -52,25 +52,6 @@ Results reflect performance within this population and should not be
 interpreted as general population screening accuracy. See 
 `docs/research_framing.md` for full discussion.
 
-## Repository Structure
-
-```
-pcos-ml-classification/
-├── notebooks/          # 8 numbered notebooks (audit → calibration)
-├── outputs/figures/    # 16 publication-quality figures
-├── data/sample/        # 5-row schema sample (full data via Kaggle)
-├── docs/               # Research framing and audit findings
-└── paper/              # Manuscript (in preparation)
-```
-
-## Getting Started
-
-```bash
-git clone https://github.com/[username]/pcos-ml-classification.git
-cd pcos-ml-classification
-pip install -r requirements.txt
-```
-
 Download the dataset from [Kaggle](https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos) 
 and place `PCOS_extended_dataset.csv` in `data/raw/`.
 
